@@ -1,0 +1,72 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;    
+}
+.tag_div{
+position: relative;    
+}
+.figure{
+display: inline-block;
+position: absolute;
+}
+.circle1{
+width: 250px;
+height: 250px; 
+border-radius: 50%;
+background-color:rgb(230, 62, 152);
+margin-top: 100px;
+margin-left: 320px;
+}
+.card{
+width: 300px;
+height: 350px;
+border: 1px solid rgb(247, 230, 230);    
+margin-top: 50px;
+margin-left: 150px;
+background-color: white;
+border-radius: 10px;
+}
+.name{
+font-size: 15px;
+padding-left: 25px;
+}
+.watch{
+font-size: 10px; 
+padding-left:25px ; 
+padding-top: 5px; 
+}
+.hr{
+width: 230px;
+margin-left: 25px;  
+margin-top: 15px;     
+}
+.h3{
+padding: 25px;
+font-size: 18px;
+}
+.head2pleace{
+padding-top: 20px;
+}
+.head3pleace{ 
+padding-top: 20px;
+}
+.btn{
+background-color: rgb(255, 0, 102);    
+color: white;
+width: 250px;
+height: 35px;
+border-radius: 5px;
+border: 1px solid rgb(255, 0, 102);
+margin-top: 30px;
+margin-left: 25px;
+}
+.circle2{
+width: 350px;
+height: 350px; 
+border-radius: 50%;
+background-color:rgb(255, 175, 84);
+top:100px;
+left: 200px;
+z-index: -1;
+}
