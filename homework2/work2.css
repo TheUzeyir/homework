@@ -30,3 +30,12 @@ margin-top: 200px;
 margin-left: 250px;
 border-radius: 10px;
 }
+.h1{
+padding-top: 10px;    
+}
+.photo1{
+width: 100px;
+height: 100px;
+border: 1px solid black;
+border-radius: 50%;    
+}
