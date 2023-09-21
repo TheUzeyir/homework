@@ -1,27 +1,27 @@
 
 .card1  {
-width:700px;
-height: 550px;
-box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
-margin: 50px;
-}
-.headphone{
-width: 300px;
-height: 300px;
-}
-.card_freeshipping{
-width: 100px;
-height: 20px;
-margin-top:50px;
-margin-left: 310px;
-border-radius: 10px;
-background-color: rgb(15, 15, 111);
-display: inline-block;
-}
-.text_freeshipping{
-    color: white;
-    padding-left: 5px;
-}
-.text_name1{
-margin-top: 300px;    
-}
+    width:700px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
+    margin: 50px;
+    }
+    .headphone{
+    width: 300px;
+    height: 300px;
+    }
+    .card_freeshipping{
+    width: 100px;
+    height: 20px;
+    margin-top:50px;
+    margin-left: 310px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 111);
+    display: inline-block;
+    }
+    .text_freeshipping{
+        color: white;
+        padding-left: 5px;
+    }
+    .text_name1{
+    margin-top: 300px;    
+    }

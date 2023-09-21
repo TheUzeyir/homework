@@ -7,7 +7,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .figma{
 width: 700px;
 height: 300px;
-background-color: rgb(77, 77, 223);  
+background-color:#3556C8;  
 border-radius: 20px;
 margin-top: 200px;
 margin-left: 350px;
@@ -17,7 +17,7 @@ z-index: 1;
 .shadow{
 width: 750px;
 height: 350px;
-background-color: rgb(143, 169, 246);  
+background-color:#9aabdf;  
 position: absolute;
 margin-left: 325px;
 margin-top: 175px;
