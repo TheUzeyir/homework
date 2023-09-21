@@ -100,9 +100,28 @@ position: fixed;
 border: 5px solid gray;
 }
 .icon_arrow{
-  color: white;
-  font-size: 30px;
-  padding-left: 250px;
-  padding-top: 10px;
+  font-size: 25px;
+  padding-top: 8px;
+  padding-left: 10px;
   display:inline;
+}
+.icon{
+  width:40px;
+  height:40px;
+  margin-left: 248px;
+  margin-top: 3px;
+  border-radius: 50%;
+  padding-top: 3px;
+  background-color: white;
+  display: inline-block;
+}
+.input_email{
+  width: 235px;
+  height: 45px;
+  border-radius: 70px;
+  background: none;
+  border:#9aabdf ;
+  color: white;
+  margin-left: -241px;
+  box-sizing: content-box;
 }
