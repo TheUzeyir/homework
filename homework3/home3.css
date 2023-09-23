@@ -78,27 +78,29 @@ bottom: 30%;
 color: white;
 }
 .circlelittle{
+position: absolute;
 width: 10px;
 height: 10px;
 background-color: rgb(115, 215, 87);
 border-radius: 50%;
-margin-left: 375px;
-margin-top: 20px;
+left: 375px;
+top:344px;
 }
 .stock_information{
 position: absolute;
 transform: translate(50%,-50%);
-margin-left: 340px;
+left: 340px;
 bottom: 134px;
 }
 .icon_scales{
+position: absolute;
 width: 150px;
 height: 50px;
 border: 1px solid black;    
 border-radius: 10px;
 position: absolute;
-margin-left:375px ;
-margin-top: 25px;
+left:375px ;
+bottom: 80px;
 }
 .icon_heart{
 width: 150px;
@@ -107,7 +109,7 @@ border: 1px solid black;
 border-radius: 10px;
 position: absolute;
 right: 110px;
-bottom: 72px;
+bottom: 80px;
 }
 .scales{
 padding-top:12.5px ;
