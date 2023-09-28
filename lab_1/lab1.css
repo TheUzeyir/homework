@@ -1,524 +1,554 @@
- @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap'); 
- body{
-    font-family: 'Manrope', sans-serif;
- }
-*{
-margin: 0px;
-padding: 0px;
-box-sizing: border-box; 
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
 }
-a{
-text-decoration: none;
-color: black;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-header{
-width: 100%;
-box-shadow: 0px 4px 60px 0px #00000014;
+a {
+  text-decoration: none;
+  color: black;
 }
-.header{
-width: 100%;
-height: 60px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+header {
+  width: 100%;
+  box-shadow: 0px 4px 60px 0px #00000014;
 }
-.wrapper{
-margin:0px 50px; 
-padding: 0px 50px;   
+.header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.accounting{
-font-family: 'Lora', serif;
-font-size: 20px;
-font-weight: 700;
+.wrapper {
+  margin: 0px 50px;
+  padding: 0px 50px;
 }
-li{
-list-style: none;
+.accounting {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 700;
 }
-.list_li{
-display: flex;
-gap: 24px;
+li {
+  list-style: none;
 }
-.nav_list_item:not(:last-child){
-margin: 0;
+.list_li {
+  display: flex;
+  gap: 24px;
 }
-.sing_up{
-width:80px;
-height:40px;
-background-color: green;
-padding: 8px, 16px,;
-border: none;
-border-radius: 4px;
-gap: 12px;
-color: white;
-cursor: pointer;
+.nav_list_item:not(:last-child) {
+  margin: 0;
 }
-.article_make_money{
-width: 494px;
-height: 288px;    
+.sing_up {
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  padding: 8px, 16px;
+  border: none;
+  border-radius: 4px;
+  gap: 12px;
+  color: white;
+  cursor: pointer;
 }
-.make_money{
-display: flex;    
-justify-content: space-between;
-align-items: center;
-
+.article_make_money {
+  width: 494px;
+  height: 288px;
 }
-.manage_your_money{
-font-size: 50px;  
+.make_money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.like_a_boss{
-font-size: 50px;    
-color: purple;
+.manage_your_money {
+  font-size: 50px;
 }
-.reduce_free{
-padding-top:10px ;    
+.like_a_boss {
+  font-size: 50px;
+  color: purple;
 }
-.btn_get_started{
-width: 166px;
-height: 48px;
-background: #1B9E4B;
-border-radius: 4px;
-color: white;
-margin-top: 50px;
-border: none;
-cursor: pointer;
+.reduce_free {
+  padding-top: 10px;
 }
-.our_services{
-margin-top: 100px;
+.btn_get_started {
+  width: 166px;
+  height: 48px;
+  background: #1b9e4b;
+  border-radius: 4px;
+  color: white;
+  margin-top: 50px;
+  border: none;
+  cursor: pointer;
 }
-.text_our_services{
-text-align: center;
+.our_services {
+  margin-top: 100px;
 }
-.six_elements_our_services{
-display: flex;
-flex-wrap: wrap;
-row-gap: 12px;
-column-gap: 40px;
-justify-content: center;
-padding-top: 50px;
+.text_our_services {
+  text-align: center;
 }
-.invoices{
-width: 392px;
-height: 170px;
+.six_elements_our_services {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  column-gap: 40px;
+  justify-content: center;
+  padding-top: 50px;
 }
-.six_elements_our_services h4{
-padding-top: 20px;
+.invoices {
+  width: 392px;
+  height: 170px;
 }
-.tracking{
-width: 392px;
-height:170px;
-} 
-.bookkepper{
-width: 392px;
-height:170px;
+.six_elements_our_services h4 {
+  padding-top: 20px;
 }
-.payroll{
- width: 392px;
-height:170px;
+.tracking {
+  width: 392px;
+  height: 170px;
 }
-.payments{
-width: 392px;
-height:170px;
-} 
-.bank_connections{
-width: 392px;
-height:170px;
+.bookkepper {
+  width: 392px;
+  height: 170px;
 }
-.ourtext{
-padding-top: 20px;
-font-size: 15px;
+.payroll {
+  width: 392px;
+  height: 170px;
 }
-.our_services_photo1{
-width: 50px;
-height: 50px;    
-margin-top: 30px;
+.payments {
+  width: 392px;
+  height: 170px;
 }
-.our_services_photo2{
-width: 50px;
-height: 50px;    
-margin-top: 100px;
+.bank_connections {
+  width: 392px;
+  height: 170px;
 }
-.our_advantages{
-height: 536px;
-margin-top: 200px;
+.ourtext {
+  padding-top: 20px;
+  font-size: 15px;
 }
-.card_our_advantages{
-display: flex;  
-justify-content: space-between;
-padding-top: 100px;
+.our_services_photo1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
 }
-.text_our_advantages{
-text-align: center;
+.our_services_photo2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
 }
-.our_advantage_photo{
-width: 400px;
-height: 400px;    
+.our_advantages {
+  height: 536px;
+  margin-top: 200px;
 }
-.card_our_advantages h4{
-text-align: center; 
-padding-top: 20px;
+.card_our_advantages {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
 }
-.text_for_card_advantages{
-padding-top: 20px;
-text-align: center;
-font-size: 13px;
+.text_our_advantages {
+  text-align: center;
 }
-.pricing{
-margin-top: 200px;
-height: 600px;
-margin-bottom:300px;
-}
-.pricing_most_popular{
-width: 200px;
-height: 50px;
-border: 2px solid #401B63;  
-position: absolute;
-top: -50px;
-left: 100px;
-}
-.most_popular{
-padding-left: 50px;
-}
-.pricing h2{
-text-align: center;
-font-size: 40px;
-}
-.pricing_card{
-display: flex;
-justify-content: space-between;    
-padding-top: 100px;
-}
-.pricing_card_1{
-width: 400px;
-height: 600px;
-border: 2px solid #0E4F26;
-}
-.pricing_card_2{
-width: 400px;
-height: 600px;
-border: 2px solid #0E4F26;
-position: relative;
-}
-.pricing_card_3{
-width: 400px;
-height: 600px;
-border: 2px solid #0E4F26;
-}
-.pricing h3{
-text-align: center;
-padding-top: 50px;
-font-size: 20px;
-}
- .li_for_pricing{
-padding-top: 20px;
- }
- .circle_green{
-color: rgb(29, 156, 29);
- padding-left: 100px;  
-}
-.circle_gray{
-color: gray;
- padding-left: 100px;    
-}
-.pricingcard_span1{
-padding-left: 20px;
-font-size: 13px;
-}
-.pricingcard_span2{
-padding-left: 20px;
-color: gray;
-font-size: 13px;
-}
-.pricing_card_price{
- margin-left:150px;
- padding-top: 60px;
-}
-.pricing_card_price_dollar{
-font-size: 23px;
-}
-.pricing_card_btn{
-width: 250px;
-height: 40px;
-background-color: #1B9E4B;
-margin-top: 30px;
-margin-left: 70px;
-border-radius: 5px;
-border: none;
-color: white;
-cursor: pointer;
-}
-.for_company{
-width: 100%;
-height: 200px;
-background-color: #FEF1E8;    
-padding-top: 70px;
-}
-.up_company_text1{
-font-size: 30px;
-margin-left:90px;
-}
-.up_company_text2{
-font-size: 30px;
-margin-left: 200px;
-}
-.up_company_text3{
-font-size: 30px;
-margin-left: 200px;
-}
-.up_company_text4{
-font-size: 30px;
-margin-left: 200px;
-}
-.up_company_text5{
-font-size: 30px;
-margin-left: 300px;
-}
-.bottom_company_text1{
-padding-left: 90px;
-}
-.bottom_company_text2{
-padding-left: 200px;
-}
-.bottom_company_text3{
-padding-left: 160px;
-}
-.bottom_company_text4{
-padding-left: 210px;
-}
-.bottom_company_text5{
-padding-left: 270px;
-}
-.customer_feedback{
-   margin-top: 50px;
-   width:100%;
-   height: 600px;
-   margin-bottom: 50px;
-}
-.parentcartforcustomer{
-   display: flex;
-   justify-content:space-evenly;
-}
-.customer_feedbacktext{
-text-align: center;   
-}
-.card_customer_feedback{
+.our_advantage_photo {
   width: 400px;
-  height: 250px;
-  margin-top: 100px; 
-  background-color:#F6EEFE;
+  height: 400px;
+}
+.card_our_advantages h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+.text_for_card_advantages {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+.pricing {
+  margin-top: 200px;
+  height: 600px;
+  margin-bottom: 300px;
+}
+.pricing_most_popular {
+  width: 200px;
+  height: 50px;
+  border: 2px solid #401b63;
+  position: absolute;
+  top: -50px;
+  left: 100px;
+}
+.most_popular {
+  padding-left: 50px;
+}
+.pricing h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.pricing_card {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.pricing_card_1 {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #0e4f26;
+}
+.pricing_card_2 {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #0e4f26;
   position: relative;
 }
-.customer_parentcard h2{
-   text-align: center;
+.pricing_card_3 {
+  width: 400px;
+  height: 600px;
+  border: 2px solid #0e4f26;
 }
-.card_customer_feedback{
-padding-top: 20px;
-text-align: center;   
+.pricing h3 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
 }
-.customercard_text{
-   font-size: 15px;
+.li_for_pricing {
+  padding-top: 20px;
 }
-.customercard_text_humanword1{
-font-size: 17px;
-margin-top: 100px;
+.circle_green {
+  color: rgb(29, 156, 29);
+  padding-left: 100px;
 }
-.customercard_text_humanword3{
-font-size: 17px;
-margin-top: 80px;
+.circle_gray {
+  color: gray;
+  padding-left: 100px;
 }
-.customercard_humanwork{
-font-size: 10px;  
-margin-top: 10px; 
+.pricingcard_span1 {
+  padding-left: 20px;
+  font-size: 13px;
 }
-.img_linkedin{
-width: 30px;
-height: 30px;
-position: absolute;
-top: 190px;
-right: 30px;
+.pricingcard_span2 {
+  padding-left: 20px;
+  color: gray;
+  font-size: 13px;
 }
-.img_customer{
-width: 80%;
-height: 70px; 
-margin-top: 370px;
-position: absolute;
+.pricing_card_price {
+  margin-left: 150px;
+  padding-top: 60px;
 }
-.img_customer1{
-padding-left: 150px;
+.pricing_card_price_dollar {
+  font-size: 23px;
 }
-.img_customer2{
-padding-left: 350px;
+.pricing_card_btn {
+  width: 250px;
+  height: 40px;
+  background-color: #1b9e4b;
+  margin-top: 30px;
+  margin-left: 70px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
-.img_customer3{
-padding-left: 350px;
+.for_company {
+  width: 100%;
+  height: 200px;
+  background-color: #fef1e8;
+  padding-top: 70px;
 }
-.btn_forcustomer{
-margin-top: 470px; 
-display: flex;
-position: absolute;
-gap: 20px;
-border: none;
-background-color: white;
-left: 710px;
+.up_company_text1 {
+  font-size: 30px;
+  margin-left: 90px;
 }
-.circle_customer{
-width: 10px;
-height: 10px;
-background-color: black;
-border-radius: 50%;  
-cursor: pointer;
+.up_company_text2 {
+  font-size: 30px;
+  margin-left: 200px;
 }
-.our_partners{   
-height: 350px;
-margin-bottom: 10px;
+.up_company_text3 {
+  font-size: 30px;
+  margin-left: 200px;
 }
-.our_partners h2{
-text-align: center;
+.up_company_text4 {
+  font-size: 30px;
+  margin-left: 200px;
 }
-.card_our_partners{
-margin-top: 50px;
+.up_company_text5 {
+  font-size: 30px;
+  margin-left: 300px;
 }
-.our_partners_photo{
-margin-left: 20px;   
+.bottom_company_text1 {
+  padding-left: 90px;
 }
-.question{
-   height: 500px;
+.bottom_company_text2 {
+  padding-left: 200px;
 }
-.question h2{
-   font-size: 35px;
+.bottom_company_text3 {
+  padding-left: 160px;
 }
-.helping_question{
-display: flex;
+.bottom_company_text4 {
+  padding-left: 210px;
 }
-.help_question1{
-margin-top: 50px;
-font-size: 20px;
-width: 300px;
-height: 200px;
+.bottom_company_text5 {
+  padding-left: 270px;
 }
-.help_question2{
-margin-left:400px;   
-margin-top: 50px;
-width: 550px;
-height: 350px; 
-margin-right: 150px;
-position: relative;  
-column-gap: 50px;   
+.customer_feedback {
+  margin-top: 50px;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
 }
-.helping_question span{
-column-gap: 20px;
+.parentcartforcustomer {
+  display: flex;
+  justify-content: space-evenly;
 }
-.questioncard_question1{
-position: absolute;
-top: 50px;
+.customer_feedbacktext {
+  text-align: center;
 }
-.questioncard_question2{
-position: absolute;
-top: 100px;
-font-size: 13px;
+.card_customer_feedback {
+  width: 400px;
+  height: 250px;
+  margin-top: 100px;
+  background-color: #f6eefe;
+  position: relative;
 }
-.questioncard_question3{
-position: absolute;
-top: 200px;
+.customer_parentcard h2 {
+  text-align: center;
 }
-.questioncard_question4{
-position: absolute;
-top: 250px;
+.card_customer_feedback {
+  padding-top: 20px;
+  text-align: center;
 }
-.questioncard_question5{
-position: absolute;
-top: 300px;
+.customercard_text {
+  font-size: 15px;
 }
-.create_accound{
-width: 100%;
-height: 250px;
-background-color: #FEF1E8;
+.customercard_text_humanword1 {
+  font-size: 17px;
+  margin-top: 100px;
 }
-.create_accound h2{
-text-align: center;
-padding-top: 50px;
-font-size: 35px;   
+.customercard_text_humanword3 {
+  font-size: 17px;
+  margin-top: 80px;
 }
-.create_accound_free{
-margin-left: 520px;
-margin-top: 50px;
-width: 200px;
-height: 50px;
-background-color: green;
-border-radius: 5px;
-cursor: pointer;
-color: white;
+.customercard_humanwork {
+  font-size: 10px;
+  margin-top: 10px;
 }
-.create_accound_sing{
-margin-left: 30px;
-margin-top: 50px;
-width: 200px;
-height: 50px;
-border:1px solid #1B9E4B;
-background-color: transparent;
-border-radius: 5px;
-cursor: pointer;
-color: #1B9E4B;
-} 
-.for_contack{
-   width: 100%;
-   height: 400px;
-   background-color:#667085 ;
-   position: relative;
+.img_linkedin {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 190px;
+  right: 30px;
 }
-.Acconting2{
-color: white;
-padding: 100px;
-cursor: pointer;
+.img_customer {
+  width: 80%;
+  height: 70px;
+  margin-top: 370px;
+  position: absolute;
 }
-.for_contack h4{
-padding-left: 100px;  
-margin-top: -50px; 
-color: white;
-font-size: 13px;
+.img_customer1 {
+  padding-left: 145px;
+  padding-top: 15px;
 }
-.contack_features{
-width: 150px;
-height: 300px;
-position: absolute;
-left: 500px;
-top: 100px;
-color: white;
+.img_customer2 {
+  padding-left: 350px;
+  padding-top: 15px;
 }
-.contack_resources{
- width: 150px;
-height: 300px; 
-position: absolute;
-left: 700px;
-color: white;
-top: 100px;
+.img_customer3 {
+  padding-left: 355px;
 }
-.contack_aboutus{
-width: 150px;
-height: 300px;
-color: white;
-position: absolute;
-right: 400px;
-top: 100px;
+.btn_forcustomer {
+  margin-top: 470px;
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  border: none;
+  background-color: white;
+  left: 710px;
 }
-.contack_followus{
-width: 150px;
-height: 300px;
-color: white;
-position: absolute;
-right: 200px;
-top: 100px;
-}   
-.contack_information li{
-font-size: 13px;  
-padding-top: 15px; 
-cursor: pointer;
-}      
-.contack_features span{
-font-size: 20px;
+.circle_customer {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
 }
-.plus{
-margin-left: 500px;
+.our_partners {
+  height: 350px;
+  margin-bottom: 10px;
 }
-.minus{
-padding-left: 500px;
+.our_partners h2 {
+  text-align: center;
 }
+.card_our_partners {
+  margin-top: 50px;
+}
+.our_partners_photo {
+  margin-left: 20px;
+}
+.question {
+  height: 500px;
+}
+.question h2 {
+  font-size: 35px;
+}
+.helping_question {
+  /* display: flex; */
+  width: 500px;
+}
+.help_question1 {
+  margin-top: 50px;
+  font-size: 20px;
+  width: 500px;
+  height: 200px;
+}
+.help_question2 {
+  margin-left: 700px;
+  margin-top: -200px;
+  width: 550px;
+  height: 350px;
+  position: relative;
+  column-gap: 50px;
+}
+.helping_question span {
+  column-gap: 20px;
+}
+.questioncard_question1 {
+  position: absolute;
+  top: 50px;
+}
+.questioncard_question2 {
+  position: absolute;
+  top: 100px;
+  font-size: 13px;
+}
+.questioncard_question3 {
+  position: absolute;
+  top: 200px;
+}
+.questioncard_question4 {
+  position: absolute;
+  top: 250px;
+}
+.questioncard_question5 {
+  position: absolute;
+  top: 300px;
+}
+.create_accound {
+  width: 100%;
+  height: 250px;
+  background-color: #fef1e8;
+}
+.create_accound h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 35px;
+}
+.create_accound_free {
+  margin-left: 520px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.create_accound_sing {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #1b9e4b;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1b9e4b;
+}
+.for_contack {
+  width: 100%;
+  height: 400px;
+  background-color: #667085;
+  position: relative;
+}
+.acconting2 {
+  color: white;
+  padding: 100px;
+  cursor: pointer;
+}
+.for_contack h4 {
+  padding-left: 100px;
+  margin-top: -50px;
+  color: white;
+  font-size: 13px;
+}
+.contack_features {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  color: white;
+}
+.contack_resources {
+  width: 150px;
+  height: 300px;
+  position: absolute;
+  left: 700px;
+  color: white;
+  top: 100px;
+}
+.contack_aboutus {
+  width: 150px;
+  height: 300px;
+  color: white;
+  position: absolute;
+  right: 400px;
+  top: 100px;
+}
+.contack_followus {
+  width: 150px;
+  height: 300px;
+  color: white;
+  position: absolute;
+  right: 200px;
+  top: 100px;
+}
+.contack_information li {
+  font-size: 13px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.contack_features span {
+  font-size: 20px;
+}
+.plus {
+  margin-left: 500px;
+}
+.minus {
+  padding-left: 500px;
+}
+.Punctuation_marks {
+  width: 20px;
+  height: 350px;  
+  display: flex;
+  flex-direction: column;
+  margin-left: 600px;
+  margin-top: -20px;
+}
+.negative{
+   padding-top: 30px;
+}
+.plus2{
+padding-top: 140px;   
+}
+.plus3{
+   padding-top: 30px;
+}
+.plus4{
+   padding-top: 30px;
+}
+.element {
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 36px 36px 0 36px;
+   border-color:#f6eefe  transparent transparent transparent;
+   margin-top: 17px;
+   margin-left: 170px;
+ }
