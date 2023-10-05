@@ -1,62 +1,23 @@
-* {
-    margin: 0%;
-    padding: 0%;
-    box-shadow: border-box;
+.box{
+    margin: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    animation-name: spinbox;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
 }
-
-header {
-    width: 90%;
-    height: 50px;
-    border: 1px solid black;
-    margin: 20px;
-    background-color: aqua;
-}
-
-main {
-    width: 90%;
-    height: 400px;
-    /* border: 1px solid black; */
-    margin: 20px;
-    position: relative;
-}
-
-aside {
-    position: absolute;
-    width: 30%;
-    height: 350px;
-    margin: 20px;
-    border: 1px solid black;
-    background-color: green;
-}
-
-
-article {
-    position: absolute;
-    width: 60%;
-    height: 350px;
-    border: 1px solid black;
-    margin: 20px;
-    right: 20px;
-    background-color: orange;
-}
-.cardphoto{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    
-}
-.photo {
-    margin-bottom: 10px;
-    width: 28%;
-    height: 150px;
-    background-color: black;
-    
-}
-
-footer {
-    width: 90%;
-    height: 50px;
-    border: 1px solid black;
-    margin: 20px;
-    background-color: aqua;
-}
+@keyframes spinbox {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+                transform: scale(1) rotateZ(0);
+      }
+      50% {
+        -webkit-transform: scale(2) rotateZ(180deg);
+                transform: scale(2) rotateZ(180deg);
+      }
+      100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+                transform: scale(1) rotateZ(360deg);
+      }
+    }
