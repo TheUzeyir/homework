@@ -653,6 +653,7 @@ background-color: #1464ec;
     width: 450px;
     height: 520px;
     border: 1px solid black;
+    position: relative;
 }
 .newscard .bigimg_newscard{
     width:425px;
@@ -680,4 +681,8 @@ background-color: #1464ec;
     left: 270px;
     display: flex;
     /* flex-direction: column; */
+}
+.blog_card h3{
+    position: absolute;
+    bottom: 100px;
 }
