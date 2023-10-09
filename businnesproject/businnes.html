@@ -12,12 +12,12 @@
     <img src="./white-logo.svg" alt="logo">
     <nav>
         <ul>
-            <li> <a href="Home"></a>Home</li>
-            <li><a href="#Services">Services</a></li>
-            <li><a href="#Portofilo">Portofilio</a></li>
-            <li><a href="#Pricing">Pricing</a></li>
-            <li><a href="#Team">Team</a></li>
-            <li><a href="#Contack">Contack</a></li>
+            <a href="#Home" style="color: rgb(197, 193, 193);">Home</a>
+            <a href="#Services" style="color: rgb(197, 193, 193);">Services</a>
+            <a href="#Portofilo" style="color: rgb(197, 193, 193);">Portofilio</a>
+            <a href="#Pricing" style="color: rgb(197, 193, 193);">Pricing</a>
+            <a href="#Team" style="color: rgb(197, 193, 193);">Team</a>
+            <a href="#Contack" style="color: rgb(197, 193, 193);">Contack</a>
         </ul>
     </nav>
     <div class="icon_naw"><i class="icon fa-solid fa-bars"></i></div>
@@ -25,8 +25,8 @@
 </header>
     <main> 
         <div class="container1">
-        <section class="first_information_title" >
-        <section class="first_information" id="Home">
+        <section class="first_information_title" id="Home" >
+        <section class="first_information">
            <div class="firs_information_text">
             <div class="first_information_text1"><h2>Corporate & Business Site</h2></div>
             <div class="first_information_text2"><h2>Template By Ayro UI.</h2></div>
@@ -140,40 +140,73 @@
         </div>
          <div class="section_card_portofilio_title">
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf1.jpg" alt="business man">
-                <h3>Graphics Design</h3>
-                <p>Short description for the ones who look for something</p>
+                <div class="portofilio_img_shadow">
+                    <div><i class="icon_portofilio fa-solid fa-magnifying-glass-plus"></i></div>
+                    <div><i class="icon_portofilio fa-solid fa-link"></i></div>
+                </div>
+            </div>
+                <div class="portofilio_card_text">
+                <h2>Graphics Design</h2>
+                <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
+                </div>
             </div>
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf2.jpg" alt="business man">
+                <div class="portofilio_img_shadow"></div>
+            </div>
+            <div class="portofilio_card_text">
                  <h2>Web Development</h2>
                 <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
             </div>
+            </div>
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf3.jpg" alt="business man">
+                <div class="portofilio_img_shadow"></div>
+            </div>
+            <div class="portofilio_card_text">
                 <h2>App Development</h2>
                 <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
+                </div>
             </div>
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf4.jpg" alt="business man">
+                <div class="portofilio_img_shadow"></div>
+            </div>
+            <div class="portofilio_card_text">
                 <h2>Digital Marketing</h2>
                 <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
             </div>
+            </div>
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf5.jpg" alt="business man">
+                <div class="portofilio_img_shadow"></div>
+            </div>
+            <div class="portofilio_card_text">
                 <h2>SEO Services</h2>
                 <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
             </div>
+            </div>
             <div class="section_card_portofilio">
+                <div class="portofilio_img_box">
                 <img src="./pf6.jpg" alt="business man">
+                <div class="portofilio_img_shadow"></div>
+            </div>
+            <div class="portofilio_card_text">
                 <h2>Product Design</h2>
                 <p class="p1">Short description for the ones who look for something</p>
                 <p>new. Awesome!</p>
+            </div>
             </div> 
         </div>   
     </section>
@@ -244,19 +277,25 @@
 </div>
  <div class="company_team_card_title">
         <div class="company_team_card">
-                <img src="./team-1.jpg" alt="Business man">
-                <h3>Jeferry Riley</h3>
-                <span>Arc Director</span>
+          <div class="company_team_card_img"><img src="./team-1.jpg" alt="Business man"></div>
+          <div class="company_team_card_text"> 
+            <h3>Jeferry Riley</h3>
+            <span>Arc Director</span>
+        </div>
         </div>
         <div class="company_team_card">
-            <img src="./team-2.jpg" alt="Business man">
+            <div class="company_team_card_img"><img src="./team-2.jpg" alt="Business man"></div>
+            <div class="company_team_card_text"> 
             <h3>Riley Beata</h3>
             <span>Web Developer</span>
         </div>
+        </div>
         <div class="company_team_card">
-            <img src="./team-3.jpg" alt="Business man">
+            <div class="company_team_card_img"><img src="./team-3.jpg" alt="Business man"></div>
+            <div class="company_team_card_text"> 
             <h3>Mark Alone</h3>
             <span>UX Desinger</span>
+        </div>
         </div>
     </div>
     </section>
@@ -308,61 +347,75 @@
         </div>
         <div class="blog_card">
             <div class="newscard">
-                <div>
                     <img class="bigimg_newscard" src="./1.jpg" alt="business">
                     <div class="box"><img class="littleimg_newscard" src="./b6.jpg" alt="business girl"><span>BY TIM NORTON</span></div>
-                </div>
-               
                 <h3>Make your team a Design driven company</h3>    
-                <!-- <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside> -->
+                <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside>
             </div>
             <div class="newscard">
                 <img class="bigimg_newscard"  src="./2.jpg" alt="business">
-                <!-- <div class="box"><img class="littleimg_newscard" src="./b6.jpg" alt="business girl"><span>BY TIM NORTON</span></div>
+                <div class="box"><img class="littleimg_newscard" src="./b6.jpg" alt="business girl"><span>BY TIM NORTON</span></div>
                 <h3>The newest web framework that changed the world</h3>
-                <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside> -->
+                <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside>
             </div>
             <div class="newscard">
                 <img class="bigimg_newscard"  src="./hero-image.jpg" alt="business"> 
-                <!-- <div class=box"><img class="littleimg_newscard" src="./b6.jpg" alt="business girl"><span>BY TIM NORTON</span></div>
+                <div class="box"><img class="littleimg_newscard" src="./b6.jpg" alt="business girl"><span>BY TIM NORTON</span></div>
                 <h3>5 ways to improve user retention for your startup</h3>
-                <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside> -->
+                <aside>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</aside>
             </div>
         </div>
     </section>
-</div>
-
-
-
-    <!-- <section class="sponsor_section">
+    <section class="sponsor_section">
         <div class="section_first_information">
             <button class="section_btn">Meet our Clients</button>
             <h2>Our Awesome Clients</h2>
             <p class=section_firstinfo_text1>There are many variations of Lorem Ipsum avilable,but</p>
             <p class=section_firstinfo_tex2>the majority have suffered alternation in some from.</p>
         </div>
-        <div class="sponsor_name">
-            <div class="sponsor_card"><img src="./graygrids.svg" alt="graygrids"></div>
-            <div class="sponsor_card"><img src="./uideck.svg" alt="uideck"></div>
-            <div class="sponsor_card"><img src="./ayroui.svg" alt="ayroui"></div>
-            <div class="sponsor_card"><img src="./lineicons.svg" alt="lineicons"></div>
-            <div class="sponsor_card"><img src="./tailwindtemplates.svg" alt="tailwind"></div>
-            <div class="sponsor_card"><img src="./ecomhtml.svg" alt="ecomhtml"></div>
-        </div>
+            <div class="sponsor_logo">
+                <div class="logo_up">
+                <div class="sponsor_card"><img src="./graygrids.svg" alt="graygrids"></div>
+                <div class="sponsor_card"><img src="./uideck.svg" alt="uideck"></div>
+                <div class="sponsor_card"><img src="./ayroui.svg" alt="ayroui"></div>
+                </div>
+                <div class="logo_down">
+                <div class="sponsor_card"><img src="./lineicons.svg" alt="lineicons"></div>
+                <div class="sponsor_card"><img src="./tailwindtemplates.svg" alt="tailwind"></div>
+                <div class="sponsor_card"><img src="./ecomhtml.svg" alt="ecomhtml"></div>
+                </div>
+            </div>
     </section>
-
-<section class="communucation_section" id="Team">
-    <div class="communucation_card">
-        <div class="contact"><p>Contack</p><p>0984537278623</p><p>yourmail@gmail.com</p></div>
-        <div class="address"><p>Address</p><p>175 5th Ave, New York, NY 10010</p><p>United States</p></div>
-        <div class="schedule"><p>Schedule</p><p>24 Hours / 7 Days Open</p><p>Office time: 10 AM - 5:30 PM</p></div>
+    <section class="communucation_section" id="Team">
+    <div class="communucation_card_title">
+         <div class="communucation_card">
+        <div class="iconbox"><i class="icon_communucation fa-solid fa-phone fa-shake"></i></div>
+        <ul>
+            <li>Contact</li>
+            <li>0984537278623</li>
+            <li>yourmail@gmail.com</li>
+        </ul></div>
+         <div class="communucation_card">
+         <div class="iconbox" ><i class="icon_communucation fa-solid fa-location-dot fa-fade"></i></div>
+        <ul>
+         <li>Address</li>
+         <li>175 5th Ave, New York, NY 10010</li>
+         <li>United States</li>
+        </ul> </div>
+         <div class="communucation_card">
+        <div class="iconbox"><i class="icon_communucation fa-regular fa-clock fa-shake"></i></div>
+        <ul>
+            <li>Schedule</li>
+            <li>24 Hours / 7 Days Open</li>
+            <li>Office time: 10 AM - 5:30 PM</li>
+        </ul></div> 
     </div>
     <form class="registration_card">
-        <h3>Get in Touch</h3>
-        <h2>Ready to Get Started</h2>
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus quiblanditiis</p>
-        <p>praesentium</p>
-        <label for="name"></label>
+        <!-- <h3>Get in Touch</h3> -->
+        <!-- <h2>Ready to Get Started</h2> -->
+        <!-- <p>At vero eos et accusamus et iusto odio dignissimos ducimus quiblanditiis</p> -->
+        <!-- <p>praesentium</p> -->
+        <!-- <label for="name"></label>
         <input type="text" id="name" placeholder="Name">
         <label for="email"></label>
         <input type="text" id="email" placeholder="Email">
@@ -372,11 +425,12 @@
         <input type="text" id="subject" placeholder="Subject">
         <label for="message"></label>
         <input type="text" id="message" placeholder="Type Message">
-        <button>SEND MESSAGE</button>
+        <button>SEND MESSAGE</button> -->
     </form>
 </section>
+</div>
 
-      <section class="detailed_information">
+<!--      <section class="detailed_information">
         <div class="logo_information">
             <img src="./white-logo.svg" alt="businness logo">
             <p>Making the world a better place through</p>

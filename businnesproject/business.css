@@ -29,7 +29,7 @@ header {
     width: 100%;
     height: 94px;
     position: fixed;
-z-index: 10;    
+    z-index: 10;    
 }
 
 header img {
@@ -50,20 +50,16 @@ header ul {
     gap: 40px;
     list-style-type: none;
     cursor: pointer;
-    color: #ffffff9d;
     margin-left: 157px;
     margin-top: 35px;
     font-size: 16px;
 }
+a:link:hover {
+    color: white;
+}
 
 header section {
     display: flex;
-}
-header a:hover{
-    color: white;
-}
-header li:hover {
-    color: white;
 }
 
 header .icon {
@@ -85,7 +81,7 @@ header .icon {
 main {
     background-color: #155bd5;
     width: 100%;
-    height: 650px;
+    height: 800px;
 }
 .first_information_text{
     margin-top: 150px;
@@ -101,7 +97,7 @@ main {
     width: 650px;
     height: 500px;
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 .first_information h2 {
@@ -153,7 +149,7 @@ a:link {
 .about_teamwork {
     width: 100%;
     height: 700px;
-    margin-top: 65px;
+    margin-top: 160px;
     display: flex;
     background-color:#f4f3f3
 }
@@ -411,6 +407,7 @@ cursor: pointer;
     color: #155bd5;
     text-decoration: underline;
     text-underline-offset: 8px;
+    transition-duration: 0.5s;
 }
 .section_card_portofilio_title{
     display: flex;
@@ -423,12 +420,49 @@ cursor: pointer;
     width: 415px;
     height: 450px;
     border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.portofilio_img_box{
+    position: relative;
 }
 .section_card_portofilio img{
 width: 413px;
+position: absolute;
+border-radius: 8px;
 }
-.section_card_portofilio h2{
-    margin-top: 20px;
+.portofilio_img_shadow{
+    width: 380px;
+    height: 290px;
+    position: absolute;
+    margin:20px 16.5px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portofilio_img_shadow:hover{
+    background-color: white;
+    opacity: 0.8;
+    transition-duration: 1s;
+}
+.portofilio_img_shadow:hover+.portofilio_img_shadow div{
+    display: block;
+    position: absolute;
+}
+.icon_portofilio{
+color: white;
+font-size: 25px;
+padding: 12px;
+}
+.portofilio_img_shadow div{
+    width: 50px;
+    height: 50px;
+    background-color: #1464ec;
+    border-radius: 5px;
+    margin: 10px;
+    display: none;
 }
 .section_card_portofilio .p1{
     margin-top: 20px;
@@ -542,19 +576,44 @@ color: #6d6d6d;
     justify-content: space-between;
 }
 .company_team_card{
-    border: 1px solid black;
-    height: 500px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 400px;
     width: 400px;
-    text-align: center;
-}
-.company_team_card:hover{
-    background-color:#3d7eed;
-}
+}  
 .company_team_card img{
     width: 400px;
     height: 400px;
+    position: relative;
+    z-index: -1;
+    border-radius: 10px;
 }
-.company_team_card span{color: #3d7eed;}
+.company_team_card_text{
+    height: 100px;
+    width: 400px;
+    margin-top: -104px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.company_team_card_text h3{
+    color:black;
+    font-size: 1.5rem;
+}
+.company_team_card_text:hover{
+    background-color: #155bd5;
+    color: white;
+    height: 100px;
+}
+.company_team_card_text span{
+    color:blue;
+}
 .business_information_section{
     height: 400px;
     background-color: #155bd5;
@@ -589,6 +648,7 @@ color: #6d6d6d;
 .card_testimonials_title{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 .section_testimonials{
     display: flex;
@@ -652,7 +712,6 @@ background-color: #1464ec;
 .newscard{
     width: 450px;
     height: 520px;
-    border: 1px solid black;
     position: relative;
 }
 .newscard .bigimg_newscard{
@@ -672,17 +731,135 @@ background-color: #1464ec;
     margin: 10px 0 0 10px;
 }
 .blog_card .box{
-    position: relative;
-    width: 150px;
-    height: 35px;
-    background-color:#286adc;
-    border-radius: 30px;
-    top: 300px;
-    left: 270px;
-    display: flex;
-    /* flex-direction: column; */
+position: relative;
+width: 150px;
+height: 35px;
+background-color:#286adc;
+border-radius: 30px;
+top: 300px;
+left: 270px;
+display: flex;
 }
 .blog_card h3{
-    position: absolute;
-    bottom: 100px;
+position: absolute;
+bottom: 80px;
+font-size: 25px;
 }
+.newscard aside{
+position: absolute;
+bottom: 5px;
+}
+.blog_card h3:hover{
+cursor: pointer;
+color: #1464ec;
+}
+.sponsor_logo{
+width: 800px;
+height: 300px;
+margin-left: 250px;
+}
+.logo_up{
+display: flex;
+height: 100px;
+gap: 25px;
+}
+.logo_down{
+display: flex;
+height: 100px;
+margin-left: 60px;
+margin-top: 40px;
+gap: 25px;
+}
+.logo_up .sponsor_card{
+display: flex;
+width: 250px;
+height: 100px;
+}
+.logo_down .sponsor_card{
+display: flex;
+width: 200px;
+height: 100px;
+}
+.logo_down img{
+margin-left: 30px;
+width: 120px;
+height: 120px;
+}
+.logo_up img{
+width:150px;
+height: 100px;
+margin-left: 60px;
+}
+.sponsor_card{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+transform-origin: bottom;
+}
+.sponsor_card:hover{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+animation-name: bounce;
+animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  .communucation_section{
+    display: flex;
+    justify-content: space-between;
+  }
+ .communucation_card_title{
+    width: 450px;
+    height: 450px;
+ }
+ .communucation_card{
+    width: 420px;
+    height: 120px;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 10px;
+    margin:20px 0 0 30px;
+    display: flex;
+ }
+
+ .icon_communucation{
+font-size: 25px;
+border:transparent;
+color: white;
+margin: 13px;
+ }
+ .iconbox{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1464ec;
+    margin: 10px 0 0 20px;
+ }
+ .communucation_card ul{
+list-style: none;
+margin: 10px 0 0 20px;
+}
+ .communucation_card li:nth-child(1){
+    color: #1464ec;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .communucation_card li:nth-child(2){
+    color: gray;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.communucation_card li:nth-child(3){
+    color: gray;
+    margin-top: 2px;
+    font-size: 17px;
+}
+.registration_card{
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 10px;
+    margin-top: 20px;
+ }
+ 

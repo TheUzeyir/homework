@@ -1,9 +1,29 @@
-.hovered_element{
- cursor: pointer;
+.up_sp{
+  display: flex;
+  gap: 20px;
 }
-.riggered_element{
-  display: none;
+.down_sp{
+  display: flex;
+  gap: 20px;
 }
-.hovered_element:hover+.riggered_element  {
-  display: block;
-}
+.sponsor_name{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  }
+  .sponsor_card{
+    width: 250px;
+    height: 120px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .sponsor_card img{
+        padding: 50px;
+    }
+    .sponsor_card:hover{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .down_sp img{
+        width: 50px;
+        height: 50px;
+    }
