@@ -161,15 +161,15 @@ a:link {
     margin: 100px 24px 90px 150px;
     width: 550px;
     height: 550px;
-    /* z-index: -1; */
+    z-index: 3;
 }
 .point_img{
     width: 150px;
     height: 150px;
     position:absolute;
-    z-index:-1;
+    z-index:2;
     opacity: 0.2;
-    margin: 20px 0 0 110px;
+    margin: 65px 0 0 100px;
 }
 
 .team_information_text {
@@ -455,6 +455,11 @@ border-radius: 8px;
 color: white;
 font-size: 25px;
 padding: 12px;
+display: none;
+}
+.portofilio_img_shadow:hover .icon_portofilio{
+display: block;
+color:white;
 }
 .portofilio_img_shadow div{
     width: 50px;
@@ -895,10 +900,15 @@ margin: 10px 0 0 20px;
 }
 .registration_card{
     width: 825px;
-    height: 500px;
+    height: 600px;
     border: 1px solid rgb(149, 149, 149);
     border-radius: 10px;
     margin-top: 20px;
+ }
+ .registration_card input{
+    font-size: 17px;
+    margin: 15px;
+    border: none;
  }
  .registration_card:hover{
     box-shadow: rgba(149, 149, 149) 0px 7px 29px 0px;
@@ -937,8 +947,12 @@ font-size: 40px;
     margin: 20px 0 0 35px;
     border-radius: 30px;
 }
-.registration_imput_card div:nth-child(5){
-    border-radius: 5px; 
+.registration_imput_box{
+    width: 760px;
+    height: 150px;
+    border-radius: 20px; 
+    border: 1px solid black;
+    margin: 20px 0 0 35px;
 }
 .detailed_information{
     height: 300px;
