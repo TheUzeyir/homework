@@ -609,7 +609,9 @@ color: #6d6d6d;
 .company_team_card_text:hover{
     background-color: #155bd5;
     color: white;
-    height: 100px;
+    height: 131px;
+    transform: translateY(-30px);
+    transition-duration: 0.3s;
 }
 .company_team_card_text span{
     color:blue;
@@ -809,6 +811,7 @@ animation-timing-function: ease;
   .communucation_section{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
   }
  .communucation_card_title{
     width: 450px;
@@ -821,6 +824,9 @@ animation-timing-function: ease;
     border-radius: 10px;
     margin:20px 0 0 30px;
     display: flex;
+ }
+ .communucation_card:hover{
+box-shadow: rgba(149, 149, 149) 0px 7px 29px 0px;
  }
 
  .icon_communucation{
@@ -856,10 +862,128 @@ margin: 10px 0 0 20px;
     font-size: 17px;
 }
 .registration_card{
-    width: 800px;
+    width: 825px;
     height: 500px;
     border: 1px solid rgb(149, 149, 149);
     border-radius: 10px;
     margin-top: 20px;
  }
- 
+ .registration_card:hover{
+    box-shadow: rgba(149, 149, 149) 0px 7px 29px 0px;
+ }
+ .registration_card h3{
+    text-align: center;
+    color: #155bd5;
+    margin-top: 50px;
+    font-size: 23px;
+ }
+.registration_card h2{
+text-align: center;
+margin-top: 10px;
+font-weight: 600;
+font-size: 40px;
+}
+.registration_card p{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 17px;
+}
+.registration_card aside{
+    text-align: center;
+    color: #6d6d6d;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.registration_imput_card{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.registration_imput{
+    width: 350px;
+    height: 50px;
+    border: 1px solid gray;
+    margin: 20px 0 0 35px;
+    border-radius: 30px;
+}
+.registration_imput_card div:nth-child(5){
+    border-radius: 5px;
+}
+.detailed_information{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.logo_information{
+width: 310px;
+height: 250px;
+font-size:17px;
+}
+.logo_information p{
+    color: #6d6d6d;
+}
+.logo_information p:nth-child(2){
+    margin-top: 20px;
+}
+.logo_information p:nth-child(4){
+margin-top: 50px
+}
+.logo_information span{
+    color: #1464ec;
+    cursor: pointer;
+}
+.foreign_relations{
+    width: 600px;
+    height: 250px;
+    display: flex;
+}
+.foreign_relations ul{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.foreign_relations li{
+    color: #6d6d6d;
+    font-size: 17px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.foreign_relations li:hover{
+cursor: pointer;
+color: #1464ec;
+}
+.joined{
+    width: 350px;
+    height: 250px;
+}
+.joined input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    border: 1px solid rgb(114, 111, 111);
+}
+.joined p{
+    color: #6d6d6d;
+}
+.joined p:nth-child(2){
+margin-top: 30px;
+}
+.icon_gmail{
+color: white;
+font-size: 20px;
+margin: 10px;
+}
+.box_gmail{
+    cursor: pointer;
+width: 40px;
+height:40px;
+border:none;
+border-radius: 5px;
+background-color: #1464ec;
+display: inline-block;
+margin-left:-45px;
+}
+.joined ::placeholder{
+    font-size: 17px;
+    padding-left: 20px;
+}
