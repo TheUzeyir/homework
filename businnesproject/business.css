@@ -580,6 +580,37 @@ color: #6d6d6d;
     height: 400px;
     width: 400px;
 }  
+.human_sosial_media{
+    width: 185px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: -40px;
+    display: none;
+
+}
+.card_media{
+    display: flex;
+    flex-direction:row;
+}
+.icon_media{
+    display: none;
+    padding:12px 0 0 25px;
+}
+.company_team_human_information:hover .icon_media{
+    display: block;
+    color:#6d6d6d;
+}
+.company_team_human_information:hover .human_sosial_media{
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+.company_team_human_information:hover h3{
+    margin-top: 25px;
+}
 .company_team_card img{
     width: 400px;
     height: 400px;
@@ -587,10 +618,10 @@ color: #6d6d6d;
     z-index: -1;
     border-radius: 10px;
 }
-.company_team_card_text{
+.company_team_human_information{
     height: 100px;
     width: 400px;
-    margin-top: -104px;
+    margin-top: -100px;
     text-align: center;
     padding-top: 20px;
     display: flex;
@@ -601,19 +632,20 @@ color: #6d6d6d;
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    position: relative;
 }
-.company_team_card_text h3{
+.company_team_human_information h3{
     color:black;
     font-size: 1.5rem;
 }
-.company_team_card_text:hover{
+.company_team_human_information:hover{
     background-color: #155bd5;
     color: white;
     height: 131px;
     transform: translateY(-30px);
     transition-duration: 0.3s;
 }
-.company_team_card_text span{
+.company_team_human_information span{
     color:blue;
 }
 .business_information_section{
@@ -906,7 +938,7 @@ font-size: 40px;
     border-radius: 30px;
 }
 .registration_imput_card div:nth-child(5){
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 .detailed_information{
     height: 300px;
