@@ -1,0 +1,92 @@
+@import "./mixin";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style:none ;
+}
+
+body,html{
+    font-size: 10px;
+}
+
+.container{
+    margin-left:10rem;
+}
+
+header{
+    width: 1000%;
+    height: 11rem;
+    background-color:#8F50DE;
+    display: flex; 
+
+    .header_box{
+    @include d-flex(flex,space-between,_,_,);
+    width: 130rem;
+    margin-top: 3rem;
+    
+    .header_box_imgcard{
+        img:nth-child(1){
+            width: 15rem;
+            height:4rem ;
+        }
+    
+        img:nth-child(2){
+            width: 15rem;
+            height:4rem ;
+            display: none;
+        }
+        
+    }
+    
+    &_nawbar{
+        width: 60rem; 
+        @include d-flex(flex,space-between,center,_);
+
+        ul{
+            @include d-flex(flex,_,_,2rem);
+            font-weight: 600;
+        }
+        
+        li{
+            font-size: 2rem;
+            color: white;
+        }
+
+        &_singup1{
+            width: 8rem;
+            height: 5rem;
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 2rem;
+        }
+        
+        &_singup2{
+            width: 12rem;
+            height: 5rem;
+            background-color:#0D6EFD;
+            color: white;
+            border: none;
+            border-radius: 0.5rem;
+            font-size: 2rem;
+        }
+    }
+
+    .icon{
+        font-size: 3rem;
+        color: gray;
+        display: none;
+    }
+    
+  }
+}
+
+@media screen and (max-width:768px){
+html,body{
+   header{font-size: 10px;}
+}
+}
