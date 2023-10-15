@@ -9,84 +9,115 @@ li{
     list-style:none ;
 }
 
-body,html{
+html,body{
     font-size: 10px;
 }
-
-.container{
-    margin-left:10rem;
-}
-
 header{
-    width: 1000%;
-    height: 11rem;
     background-color:#8F50DE;
-    display: flex; 
+    height: 15rem;
+    padding: 2.5rem 0 0 6rem;
 
-    .header_box{
-    @include d-flex(flex,space-between,_,_,);
-    width: 130rem;
-    margin-top: 3rem;
-    
-    .header_box_imgcard{
-        img:nth-child(1){
-            width: 15rem;
-            height:4rem ;
+    .container{
+        width: 90%;
+        height: 10rem;
+        display: flex;
+
+        .header{
+            width:100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            img:nth-child(1){
+                width: 50%;
+            }
+            img:nth-child(2){
+                display: none;
+            }
+
+            &_navbar{
+                display: flex;
+                align-items: center;
+
+
+                ul{
+                    display: flex;
+                    gap: 2rem;
+                    font-size: 2rem;
+                    color: white;
+                    font-weight: 600;
+                }
+
+                &_btn{
+                display: flex;
+                gap: 2rem;
+                padding-left: 2rem;
+                }
+
+                button:nth-child(1){
+                    cursor: pointer;
+                    background-color: transparent;
+                    width: 9rem;
+                    height: 4rem;
+                    color: white;
+                    border-radius: .5rem;
+                    border: none;
+                    font-size: 2rem;
+                }
+
+                button:nth-child(2){
+                    cursor: pointer;
+                    background-color:#0D6EFD;
+                    width: 9rem;
+                    height: 4rem;
+                    color: white;
+                    border-radius: .5rem;
+                    border: none;
+                    font-size: 2rem;
+
+                }
+
+                }
+            }
+
+            .icon{
+                font-size: 3rem;
+                color: gray;
+                display:none ;
         }
-    
-        img:nth-child(2){
-            width: 15rem;
-            height:4rem ;
+    }
+     
+    }
+
+    @media screen and (max-width:768px){
+        html,body{
+            font-size: 5px;
+        }
+
+        header{
+            background-color:white;
+   
+            .header{
+
+            .header_navbar{
+                display: none;
+            }
+
+            img:nth-child(1){
             display: none;
-        }
-        
-    }
-    
-    &_nawbar{
-        width: 60rem; 
-        @include d-flex(flex,space-between,center,_);
+            }
 
-        ul{
-            @include d-flex(flex,_,_,2rem);
-            font-weight: 600;
-        }
-        
-        li{
-            font-size: 2rem;
-            color: white;
-        }
+            .header_imgbox img:nth-child(2){
+                display: block;
+                width: 40%;
+            }
+           }
 
-        &_singup1{
-            width: 8rem;
-            height: 5rem;
-            background-color: transparent;
-            color: white;
-            border: none;
-            font-size: 2rem;
-        }
-        
-        &_singup2{
-            width: 12rem;
-            height: 5rem;
-            background-color:#0D6EFD;
-            color: white;
-            border: none;
-            border-radius: 0.5rem;
-            font-size: 2rem;
+           .header .icon{
+            display: block;
+            font-size: 8rem;
+           }
+
         }
     }
-
-    .icon{
-        font-size: 3rem;
-        color: gray;
-        display: none;
-    }
-    
-  }
-}
-
-@media screen and (max-width:768px){
-html,body{
-   header{font-size: 10px;}
-}
-}
