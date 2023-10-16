@@ -174,7 +174,6 @@ a:link {
     width: 150px;
     height: 150px;
     position: absolute;
-    z-index: 2;
     opacity: 0.2;
     margin: 65px 0 0 0px;
 }
@@ -495,7 +494,7 @@ a:link {
     background-color: white;
     position: absolute;
     opacity: 0;
-}
+} 
 
 .section_card_portofilio_img_box_shadow:hover {
     opacity: 0.7;
@@ -687,7 +686,6 @@ sub {
 .company_team_card img {
     width: 400px;
     height: 400px;
-    z-index: -1;
     border-radius: 10px;
 }
 .company_team_card:hover .company_team_human_information{
